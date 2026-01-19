@@ -1,4 +1,4 @@
-# STM32F7 Edge AI - MNIST Digit Recognition 🚀
+# STM32F7 Edge AI - MNIST Digit Recognition 
 
 **Production-Ready Deep Learning on Microcontrollers**
 
@@ -7,7 +7,7 @@
 ![C Standard](https://img.shields.io/badge/C-C11-blue)
 ![Platform](https://img.shields.io/badge/Platform-STM32F746-orange)
 
-## 🎯 Project Overview
+## Project Overview
 
 This is a **complete, production-grade edge AI system** that brings deep learning to STM32F microcontrollers. It implements **MNIST digit recognition** (0-9) using TensorFlow Lite Micro with real-time camera inference, optimized for battery-powered IoT devices.
 
@@ -24,43 +24,43 @@ This is a **complete, production-grade edge AI system** that brings deep learnin
 | **Inference Time** | 14-30 FPS typical |
 | **Supported MCU** | STM32F746G Discovery (216 MHz, 1MB Flash, 320KB RAM) |
 
-## 📦 What's Included
+##  What's Included
 
-### ✅ Complete Firmware Stack
+###  Complete Firmware Stack
 - **Inference Engine**: TensorFlow Lite Micro runtime wrapper
 - **Preprocessing**: Image resize (320x240 → 28x28), normalization
 - **Camera Driver**: OV7670 QVGA sensor support with DCMI/DMA
 - **Serial Interface**: Real-time debug output via UART
 - **Hardware Abstraction**: Modular HAL for easy porting
 
-### ✅ ML Pipeline
+### ML Pipeline
 - Pre-trained MNIST model (45 KB quantized)
 - TensorFlow → TFLite conversion scripts
 - Post-training quantization pipeline
 - Model retraining capability
 - Evaluation & benchmarking tools
 
-### ✅ Build System
+###  Build System
 - CMake + Makefile configuration
 - One-command build & flash
 - ARM GCC cross-compilation setup
 - Test infrastructure
 
-### ✅ Documentation
-- 📖 Complete README (this file)
-- 🚀 Quick Start Guide (5 minutes)
-- 🏗️ Architecture & Design
-- 🔧 API Reference
-- 🐛 Troubleshooting Guide
-- 📊 Performance Analysis
+###  Documentation
+-  Complete README (this file)
+-  Quick Start Guide (5 minutes)
+-  Architecture & Design
+-  API Reference
+-  Troubleshooting Guide
+-  Performance Analysis
 
-### ✅ GitHub-Ready
+###  GitHub-Ready
 - Professional project structure
 - MIT License
 - CI/CD templates
 - Version control optimized
 
-## 🚀 Quick Start (5 Minutes)
+##  Quick Start (5 Minutes)
 
 ### Prerequisites
 ```bash
@@ -114,7 +114,7 @@ Starting real-time inference...
 [Frame     3] Predicted: 7 | Confidence: 245 | Time: 15 ms
 ```
 
-## 📊 Performance Specifications
+## Performance Specifications
 
 ### Model Performance
 ```
@@ -147,7 +147,7 @@ Average (1 inf/sec):   ~5 mA
 Battery Life (500mAh): ~100 hours @ 1 fps
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 stm32f-edge-ai-mnist/
@@ -238,7 +238,7 @@ stm32f-edge-ai-mnist/
     └── power_optimization.c
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Firmware
 - **Language**: C11
@@ -259,7 +259,7 @@ stm32f-edge-ai-mnist/
 - **Container**: Docker
 - **VCS**: Git
 
-## 🔧 Hardware Requirements
+##  Hardware Requirements
 
 | Component | Part | Purpose |
 |-----------|------|---------|
@@ -269,7 +269,7 @@ stm32f-edge-ai-mnist/
 | **Power** | 5V USB or Battery | System supply |
 | **Debug** | USB-to-UART | Serial interface |
 
-## 📚 Documentation
+##  Documentation
 
 ### Getting Started
 - **README.md** (this file) - Project overview & quick start
@@ -284,33 +284,33 @@ stm32f-edge-ai-mnist/
 ### Troubleshooting
 - **docs/TROUBLESHOOTING.md** - Solutions to common issues
 
-## 🎓 Key Features
+##  Key Features
 
-### ✅ Production Quality
+### Production Quality
 - Memory safe (no dynamic allocation after init)
 - Comprehensive error handling
 - Modular, testable design
 - Extensively documented
 
-### ✅ High Performance
+### High Performance
 - 15ms inference on STM32F7
 - 5mA average power consumption
 - 45KB quantized model
 - 98.2% accuracy
 
-### ✅ Developer Friendly
+### Developer Friendly
 - One-command build: `make`
 - Real-time serial monitor
 - Automated model conversion
 - Full test suite
 
-### ✅ Scalable
+### Scalable
 - Easy to add new models
 - Portable to other STM32 variants
 - Framework-agnostic design
 - Well-structured codebase
 
-## 🚀 Next Steps
+##  Next Steps
 
 ### Today
 1. Clone repository
@@ -330,7 +330,7 @@ stm32f-edge-ai-mnist/
 3. Integrate into your application
 4. Deploy to production
 
-## 📊 Project Statistics
+##  Project Statistics
 
 ```
 Firmware Code:         ~2,000 LOC (C)
@@ -345,7 +345,7 @@ Flash Usage:           45% of STM32F746
 RAM Usage:             47% of STM32F746
 ```
 
-## 📜 License
+##  License
 
 MIT License - See [LICENSE](LICENSE) file for details
 
@@ -354,7 +354,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 - STM32 HAL (STMicroelectronics BSD)
 - CMSIS-NN (Apache 2.0)
 
-## 🤝 Contributing
+##  Contributing
 
 This is a complete reference implementation. Feel free to:
 - Fork and customize for your application
@@ -375,28 +375,28 @@ This is a complete reference implementation. Feel free to:
 - ST Community - STM32 help
 - TinyML Community - Edge AI discussions
 
-## ✨ What Makes This Special
+##  What Makes This Special
 
-✅ **Complete** - Production-ready, not just a proof-of-concept  
-✅ **Professional** - Industry best practices throughout  
-✅ **Well-Documented** - Guides, API docs, tutorials  
-✅ **Maintainable** - Clean, modular, testable code  
-✅ **Scalable** - From prototype to production deployment  
-✅ **Open Source** - MIT license, free to use & modify  
-✅ **Community-Ready** - GitHub, CI/CD, version management  
-✅ **Modern** - Latest ML frameworks & STM32 tools  
+ **Complete** - Production-ready, not just a proof-of-concept  
+ **Professional** - Industry best practices throughout  
+ **Well-Documented** - Guides, API docs, tutorials  
+ **Maintainable** - Clean, modular, testable code  
+ **Scalable** - From prototype to production deployment  
+ **Open Source** - MIT license, free to use & modify  
+ **Community-Ready** - GitHub, CI/CD, version management  
+**Modern** - Latest ML frameworks & STM32 tools  
 
-## 🎯 Use Cases
+##  Use Cases
 
 Perfect for:
-- 🔬 Research & prototyping
-- 🏭 Industrial IoT & predictive maintenance
-- 📱 Smart devices & wearables
-- 🎓 Education & learning
-- 🚀 MVP development
-- 🏢 Production deployment
+-  Research & prototyping
+-  Industrial IoT & predictive maintenance
+- Smart devices & wearables
+-  Education & learning
+-  MVP development
+-  Production deployment
 
-## 🏆 Quality Metrics
+## Quality Metrics
 
 ```
 Code Coverage:       >90%
@@ -404,13 +404,10 @@ Documentation:       Comprehensive
 Tests:               Unit + Integration
 Compiler Warnings:   0 (with -Wall -Wextra)
 Memory Safety:       100% static allocation
-Production Ready:    ✅ YES
+Production Ready:     YES
 ```
 
 ---
-
-**Repository**: https://github.com/Wiki1998-dev/stm32f-edge-ai-mnist  
-**Status**: Production Ready ✅  
 **Last Updated**: January 19, 2025  
 **License**: MIT  
 
