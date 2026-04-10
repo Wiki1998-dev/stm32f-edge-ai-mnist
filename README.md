@@ -1,12 +1,5 @@
 # STM32F7 Edge AI - MNIST Digit Recognition 
 
-**Production-Ready Deep Learning on Microcontrollers**
-
-![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![C Standard](https://img.shields.io/badge/C-C11-blue)
-![Platform](https://img.shields.io/badge/Platform-STM32F746-orange)
-
 ## Project Overview
 
 This is a **complete, production-grade edge AI system** that brings deep learning to STM32F microcontrollers. It implements **MNIST digit recognition** (0-9) using TensorFlow Lite Micro with real-time camera inference, optimized for battery-powered IoT devices.
